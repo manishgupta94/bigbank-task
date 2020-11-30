@@ -2,6 +2,14 @@ package com.bigbank.dragonsOfMugloar.application.model;
 
 import java.util.Objects;
 
+/**
+ * DTO class mapped to capture the API response of POST /api/v2/game/start
+ * i.e when user starts a new game, this DTO class stores the response object.
+ *
+ * @author Manish Gupta
+ * @version $Id: Game.java 1.0
+ * @since 2020-11-28
+ */
 public class Game {
     private String gameId;
     private int lives;

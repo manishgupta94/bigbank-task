@@ -13,6 +13,16 @@ import java.util.List;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
+/**
+ * Test class using junit and hamcrest to run the playGame method in GameEngine class.
+ *This class uses TestRunnerApplication spring context to load up beans but not to run
+ * CommandLineRunner run method, so that it doesn't wait for the user input and executes
+ * independently.
+ *
+ * @author Manish Gupta
+ * @version $Id: GameTest.java 1.0
+ * @since 2020-11-11
+ */
 @SpringBootTest(classes = {TestRunnerApplication.class})
 @ActiveProfiles("test")
 public class GameTest {
@@ -24,6 +34,13 @@ public class GameTest {
         this.gameEngine = gameEngine;
     }
 
+    /**
+     * This method uses a variable numberOfRuns to decide how many times to run the game.
+     * It then runs the game that many times, and stores finalScore for all the iterations
+     * of the game.
+     * The test is to verify if all the scores are over 1000 or not.
+     *
+     */
     @Test
     public void playGameMultipleTimesAndMakeSureScoreIsOver1000() {
         int numberOfRuns = 10;

@@ -2,6 +2,14 @@ package com.bigbank.dragonsOfMugloar.application.model;
 
 import java.util.Objects;
 
+/**
+ * DTO class mapped to capture the API response of POST /api/v2/:gameId/shop/buy/:itemId
+ * i.e when user purchases an item from shop, this DTO class stores the response object.
+ *
+ * @author Manish Gupta
+ * @version $Id: BuyItemResponse.java 1.0
+ * @since 2020-11-28
+ */
 public class BuyItemResponse {
     private boolean shoppingSuccess;
     private int gold;

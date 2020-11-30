@@ -2,6 +2,14 @@ package com.bigbank.dragonsOfMugloar.application.model;
 
 import java.util.Objects;
 
+/**
+ * DTO class mapping to capture the API response of GET /api/v2/:gameId/messages
+ * which is mapped to List of this class. i.e. List<Ad>
+ *
+ * @author Manish Gupta
+ * @version $Id: Ad.java 1.0
+ * @since 2020-11-28
+ */
 public class Ad {
     private String adId;
     private String message;

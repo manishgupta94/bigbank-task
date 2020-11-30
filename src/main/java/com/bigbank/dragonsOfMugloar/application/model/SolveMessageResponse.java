@@ -2,6 +2,14 @@ package com.bigbank.dragonsOfMugloar.application.model;
 
 import java.util.Objects;
 
+/**
+ * DTO class mapped to capture the API response of POST /api/v2/:gameId/solve/:adId
+ * i.e when user solve a task, this DTO class stores the response object.
+ *
+ * @author Manish Gupta
+ * @version $Id: SolveMessageResponse.java 1.0
+ * @since 2020-11-28
+ */
 public class SolveMessageResponse {
     private boolean success;
     private int lives;

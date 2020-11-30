@@ -2,6 +2,15 @@ package com.bigbank.dragonsOfMugloar.application.model;
 
 import java.util.Objects;
 
+/**
+ * DTO class mapping to capture the API response of GET /api/v2/:gameId/shop
+ * i.e when user get list of shop items, the List of this DTO class (List<ShopItem>)
+ * stores the response object.
+ *
+ * @author Manish Gupta
+ * @version $Id: ShopItem.java 1.0
+ * @since 2020-11-28
+ */
 public class ShopItem {
     private String id;
     private String name;
