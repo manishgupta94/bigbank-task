@@ -66,10 +66,19 @@ Please note:
 ## Game Algorithm
 
 1. I assigned a base score corresponding to various probability in a task. Easier probability gets higher score and difficult task gets lower score.  
-2. The task is sorted based on the probability score, reward score and expiry score. The task with maximum score is selected to be solved.    
-3. If the task attempt fails 3 times for a specific probability, the base score for that probability is reduced by a margin.  
-4. Based on current life count and gold value, Healing potion is bought.  
-5. Based on current gold value, dragon item is bought keeping gold reserved for atleast 2 lives.  
+2. The base score is assigned based on the rate of success and failure over multiple API calls for each probability.  
+3. The task is sorted based on the probability score, reward score and expiry score. The task with maximum score is selected to be solved.    
+4. If the task attempt fails 3 times for a specific probability, the base score for that probability is reduced by a margin.  
+5. Based on current life count and gold value, Healing potion is bought.  
+6. Based on current gold value, dragon item is bought keeping gold reserved for atleast 2 lives.  
+
+
+---
+
+## Improvements
+
+1. Find the relation between various Reputation (with people, state, and underworld) and task failure rate to help
+selecting the best task.  
 
 
 ---
