@@ -1,4 +1,4 @@
-package com.bigbank.dragonsofmugloar.model;
+package com.bigbank.dragonsOfMugloar.application.model;
 
 import java.util.Objects;
 

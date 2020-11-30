@@ -1,6 +1,6 @@
-package com.bigbank.dragonsofmugloar;
+package com.bigbank.dragonsOfMugloar.application.service;
 
-import com.bigbank.dragonsofmugloar.model.*;
+import com.bigbank.dragonsOfMugloar.application.model.*;
 import com.google.gson.reflect.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

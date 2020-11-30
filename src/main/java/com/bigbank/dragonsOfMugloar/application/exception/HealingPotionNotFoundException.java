@@ -1,4 +1,4 @@
-package com.bigbank.dragonsofmugloar.exception;
+package com.bigbank.dragonsOfMugloar.application.exception;
 
 public class HealingPotionNotFoundException extends RuntimeException {
     public HealingPotionNotFoundException() {

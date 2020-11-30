@@ -1,10 +1,10 @@
-package com.bigbank.dragonsofmugloar;
+package com.bigbank.dragonsOfMugloar.application.util;
 
-import com.bigbank.dragonsofmugloar.exception.HealingPotionNotFoundException;
-import com.bigbank.dragonsofmugloar.exception.ShopItemNotFoundException;
-import com.bigbank.dragonsofmugloar.model.Ad;
-import com.bigbank.dragonsofmugloar.model.Game;
-import com.bigbank.dragonsofmugloar.model.ShopItem;
+import com.bigbank.dragonsOfMugloar.application.exception.HealingPotionNotFoundException;
+import com.bigbank.dragonsOfMugloar.application.exception.ShopItemNotFoundException;
+import com.bigbank.dragonsOfMugloar.application.model.Ad;
+import com.bigbank.dragonsOfMugloar.application.model.Game;
+import com.bigbank.dragonsOfMugloar.application.model.ShopItem;
 import org.springframework.stereotype.Component;
 
 import java.util.*;

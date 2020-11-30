@@ -1,5 +1,6 @@
-package com.bigbank.dragonsofmugloar;
+package com.bigbank.dragonsOfMugloar;
 
+import com.bigbank.dragonsOfMugloar.application.GameEngine;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -12,7 +13,7 @@ import java.util.Scanner;
 
 @SpringBootApplication
 @Profile("!test")
-public class DragonsofmugloarApplication implements CommandLineRunner {
+public class DragonsOfMugloarApplication implements CommandLineRunner {
 
     private GameEngine gameEngine;
 
@@ -27,7 +28,7 @@ public class DragonsofmugloarApplication implements CommandLineRunner {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(DragonsofmugloarApplication.class, args);
+        SpringApplication.run(DragonsOfMugloarApplication.class, args);
     }
 
     @Override

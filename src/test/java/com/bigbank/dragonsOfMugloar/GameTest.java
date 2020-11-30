@@ -1,5 +1,6 @@
-package com.bigbank.dragonsofmugloar;
+package com.bigbank.dragonsOfMugloar;
 
+import com.bigbank.dragonsOfMugloar.application.GameEngine;
 import org.hamcrest.core.Every;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

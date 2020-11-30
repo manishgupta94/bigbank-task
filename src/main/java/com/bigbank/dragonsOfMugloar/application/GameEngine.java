@@ -1,6 +1,8 @@
-package com.bigbank.dragonsofmugloar;
+package com.bigbank.dragonsOfMugloar.application;
 
-import com.bigbank.dragonsofmugloar.model.*;
+import com.bigbank.dragonsOfMugloar.application.model.*;
+import com.bigbank.dragonsOfMugloar.application.service.GameService;
+import com.bigbank.dragonsOfMugloar.application.util.GameHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
